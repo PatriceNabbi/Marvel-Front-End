@@ -1,0 +1,47 @@
+.comics-by-character {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+  overflow-x: scroll;
+  align-items: center;
+  color: rgb(26, 25, 25);
+  font-family: "Roboto", sans-serif;
+}
+
+.comics-by-character img {
+  object-fit: cover;
+  height: 300px;
+}
+
+.comics-title-and-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-per-characters-comics {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  width: 50%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.link-for-comics {
+  cursor: pointer;
+  text-decoration: inherit;
+  color: rgb(26, 25, 25);
+}
+
+.price {
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.icon-star {
+  border: none;
+}

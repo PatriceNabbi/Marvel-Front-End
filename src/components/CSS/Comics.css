@@ -1,0 +1,52 @@
+.comic-description {
+  display: flex;
+  color: #ffffff;
+  width: 100%;
+  height: 70vh;
+  color: #ffffff;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+}
+
+.selection-comics {
+  display: flex;
+
+  height: 100%;
+  background-color: rgb(29, 28, 28);
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.selection-comics button {
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+.comic-thumbnail {
+  height: 400px;
+}
+
+.comic-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.comics-card {
+  display: flex;
+  width: 50%;
+}
+
+.description-wrapper {
+  margin-top: -440px;
+  width: 615px;
+  height: 100vh;
+  margin-left: 280px;
+}
+
+.comic-description {
+  border: solid 1px silver;
+  box-shadow: 0px 0.2px 4px silver;
+  height: 70px;
+}

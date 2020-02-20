@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://giffiles.alphacoders.com/126/12664.gif);
+}
+
+.character-image {
+  object-fit: contain;
+  height: 120px;
+  width: 120px;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.selection-comics {
+  display: flex;
+  width: 100%;
+  background-image: url("./assets/IMG/The_Marvel_Universe.png");
+  background-size: cover;
+}
+
+.comics-page {
+  display: flex;
+  width: 100%;
+  background-image: url("./assets/IMG/Earth-616_0001.jpg");
+  background-size: cover;
+}
+
+.be-patient {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.link {
+  outline: none;
+  text-decoration: inherit;
+  color: #ffffff;
+}
