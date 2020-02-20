@@ -7,10 +7,13 @@ function SearchBar({ setData }) {
   const handleSubmit = async e => {
     e.preventDefault();
     const response = await axios.get(
-      `http://localhost:4000/characters/?name=${search}`
+      `https://pn-marvel-project.herokuapp.com/characters/?name=${search}`
     );
     setData(response.data);
+    console.log(response.data);
   };
+
+  const isSearch = [];
 
   return (
     <div className="searchbar">

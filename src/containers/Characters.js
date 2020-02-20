@@ -10,7 +10,9 @@ function Characters({ search, setSearch }) {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get("http://localhost:4000");
+      const response = await axios.get(
+        "https://pn-marvel-project.herokuapp.com"
+      );
       setData(response.data);
       setIsLoading(false); // une fois que l'information est récupérée changer le state en false
     };

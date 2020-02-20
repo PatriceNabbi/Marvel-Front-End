@@ -12,7 +12,9 @@ function ComicsId() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get("http://localhost:4000/comics/" + id);
+      const response = await axios.get(
+        "https://pn-marvel-project.herokuapp.com/comics/" + id
+      );
       setData(response.data);
       console.log("test" + response.data);
 
