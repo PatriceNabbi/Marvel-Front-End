@@ -10,12 +10,13 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faMask,
   faBookReader,
-  faStar
+  faStar,
+  faShoppingBasket
 } from "@fortawesome/free-solid-svg-icons";
 import "./index.css";
 import "./App.css";
 
-library.add(faMask, faBookReader, faStar);
+library.add(faMask, faBookReader, faStar, faShoppingBasket);
 
 function App() {
   return (

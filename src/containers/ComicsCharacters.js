@@ -89,7 +89,7 @@ function ComicsCharacters() {
                   >
                     {" "}
                     <FontAwesomeIcon
-                      icon={["fas", "star"]}
+                      icon={["fas", "shopping-basket"]}
                       className="icon-star"
                     />{" "}
                     {""}

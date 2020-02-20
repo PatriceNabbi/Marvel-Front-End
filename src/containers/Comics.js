@@ -32,13 +32,17 @@ function Comics() {
           {data.data.results.map((comic, index) => {
             return (
               <Link key={comic.id} to={"/Comics/" + comic.id}>
-                <div classeName="selection-comics">
+                <div className="selection-comics">
                   <div>{comic.title}</div>
-                  <img
-                    src={comic.thumbnail.path + "." + comic.thumbnail.extension}
-                    alt="marvel's comics"
-                  />
-                  <div>{comic.description}</div>
+                  <div className="selection-comics">
+                    <img
+                      src={
+                        comic.thumbnail.path + "." + comic.thumbnail.extension
+                      }
+                      alt="marvel's comics"
+                    />
+                    <div>{comic.description}</div>
+                  </div>
                 </div>
               </Link>
             );

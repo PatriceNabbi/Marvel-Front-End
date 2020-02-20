@@ -30,7 +30,7 @@ function Characters({ search, setSearch }) {
       {isLoading === true ? (
         <p>Marvel's page is loading...</p>
       ) : (
-        <div>
+        <div className="central-page">
           {data.data.results.map((character, index) => {
             return (
               <Link
@@ -49,8 +49,8 @@ function Characters({ search, setSearch }) {
                       alt="Marvel picture"
                     />
                     <div className="character-name-and-description">
-                      <div>{character.name}</div>
-                      <div>{character.description}</div>
+                      <span>{character.name}</span>
+                      <span>{character.description}</span>
                     </div>
                   </div>
                 </div>

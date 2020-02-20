@@ -1,20 +1,19 @@
 .comic-description {
-  display: flex;
   color: #ffffff;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   color: #ffffff;
   font-size: 19px;
   font-family: "Roboto", sans-serif;
+  background-color: rgb(28, 27, 27);
 }
 
 .selection-comics {
-  display: flex;
-
   height: 100%;
   background-color: rgb(29, 28, 28);
   padding-left: 20px;
   padding-top: 15px;
+  background-color: rgb(28, 27, 27);
 }
 
 .selection-comics button {
@@ -24,6 +23,7 @@
 
 .comic-thumbnail {
   height: 400px;
+  background-color: rgb(28, 27, 27);
 }
 
 .comic-title {
@@ -31,11 +31,12 @@
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
+  background-color: rgb(28, 27, 27);
 }
 
 .comics-card {
-  display: flex;
-  width: 50%;
+  width: 100%;
+  background-color: rgb(28, 27, 27);
 }
 
 .description-wrapper {
@@ -46,7 +47,6 @@
 }
 
 .comic-description {
-  border: solid 1px silver;
-  box-shadow: 0px 0.2px 4px silver;
   height: 70px;
+  background-color: rgb(28, 27, 27);
 }
